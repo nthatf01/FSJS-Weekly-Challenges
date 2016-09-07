@@ -1,5 +1,6 @@
 //create function
 function helloWorld(message) {
+  console.log(message);
   if (message.toLowerCase() === "hello"){
     alert("Hello World!");
   } else {
@@ -12,4 +13,5 @@ function helloWorld(message) {
 var helloPrompt = prompt("Hello?");
 //Call function
 helloWorld(helloPrompt);
+
 //Alert user results
